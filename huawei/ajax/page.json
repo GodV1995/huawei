@@ -1,0 +1,70 @@
+{	
+	"banner":
+		"banner.jpg",
+	"slideLists":
+	[
+		"slide1.jpg",
+		"slide2.jpg",
+		"slide3.jpg",
+		"slide4.jpg",
+		"slide5.jpg",
+		"slide6.jpg",
+		"slide7.jpg",
+		"slide8.jpg"
+	],
+	
+	"slideMenu"	:{
+		"shouji":
+		[
+			"荣耀",
+			"HUAWEI P系列"
+		],
+		"bijiben":
+		[
+			"平板电脑",
+			"笔记本电脑"
+		],
+		"chuandai":[
+			"手环",
+			"手表",
+			"VR"
+		],
+		"jiaju":[
+			"路由器",
+			"电视盒子",
+			"照明"
+		],
+		"tongyong":[
+			"移动电源",
+			"耳机",
+			"音响"
+		],
+		"zhuanshu":[
+			"保护壳",
+			"保护套",
+			"贴膜"
+		]
+	},
+	"mainRightTops":
+		[
+			"华为畅享系列新品开始预订",
+			"华为Mate 20即将来袭",
+			"【购荣耀8X限量赠价值358元豪华礼包】",
+			"华为畅享系列新品签到赢Watch"
+		],
+	"main2":{
+		"main2Left":
+			"main2Left.png",
+		"main2Right":
+			{
+				"img":
+					"MateRs.jpg",
+				"h5":
+					"HUAWEI Mate RS 保时捷设计",
+				"h6":
+					"赠无线耳机",
+				"span":
+					"￥9999"
+			}
+	}
+}

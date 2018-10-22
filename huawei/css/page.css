@@ -1,0 +1,428 @@
+/*--------------------banner-------------*/
+#banner{
+	height: 90px;
+	width: 100%;
+	overflow: hidden;
+	cursor: pointer;
+}
+.bannerBtn{
+	margin-left: 1215px;
+	margin-top: 10px;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+/*--------------------slide------------------*/
+#slide{
+	height: 450px;
+	width: 100%;
+	overflow: hidden;
+}
+.slideList{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.slideLists{
+	float: left;
+}
+.slideList1{
+	width: 208px;
+	height: 57px;
+	padding: 9px 16px;
+	font-size: 14px;
+	color: #999999;
+	background: rgba(0,0,0,.5);
+}
+.slideList1s{
+	color: #999999;
+}
+.slideMenu{
+	overflow: hidden;
+	margin-top: 5px;
+}
+.slideMenu a{
+	display: block;
+	float: left;
+	margin-right: 10px;
+	color: #999999;
+}
+.slideListRight{
+	width: 648px;
+	height: 450px;
+	background: white;
+	position: absolute;
+	left: 240px;
+	top: 0;
+	display: none;
+}
+.slideListRightTop{
+	box-sizing: border-box;
+	width: 648px;
+	height: 72px;
+	font-size: 12px;
+	border-top: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	padding: 30px 40px;
+}
+.slideListRightTop a{
+	color: #c10000;
+}
+.slideListRightTop a h6{
+	float: left;
+}
+.slideListRightTop a span{
+	float: right;
+}
+.slideListRightMid{
+	overflow: hidden;
+	width: 568px;
+	height: 100px;
+	padding: 11px 40px;
+	border-bottom: 1px solid #999999;
+}
+.slideListRightMids{
+	height: 50px;
+	line-height: 50px;
+}
+.slideListRightMids a{
+	margin-right: 32px;
+}
+.slideListRightBot{
+	height: 255px;
+	position: relative;
+	background: #999999;
+}
+.slideListRightBots{
+	width: 161px;
+	height: 100%;
+	background: white;
+	cursor: pointer;
+	position: absolute;
+}
+.slideListRightBot_2{
+	left: 162px;
+}
+.slideListRightBot_3{
+	left: 324px;
+}
+.slideListRightBot_4{
+	left: 486px;
+}
+.slideListRightBot img{
+	width: 100px;
+	height: 120px;
+	margin: 40px auto 0;
+}
+.slideListRightBots h3{
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	font-size: 12px;
+	margin-top: 20px;
+}
+.slideListRightBots span{
+	display: block;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	font-size: 12px;
+	color: red;
+}
+.slideUl{
+	float: left;
+	margin:0;
+	margin-top: 410px;
+	margin-left: 275px;
+}
+.slideUl li{
+	width: 10px;
+	height: 10px;
+	float: left;
+	border: 2px solid white;
+	margin: 0 5px;
+	border-radius: 50%;
+	background: none;
+}
+/*--------------------main------------------*/
+#main{
+	width: 1198px;
+	height: 97px;
+	border:1px solid #eaeaea;
+	border-top: none;
+	margin: 0 auto;
+	overflow: hidden;
+	background: white;
+}
+.mainLeft{
+	float: left;
+	padding: 0 22px 0;
+	width: 244px;
+	height: 72px;
+	border-right: 1px solid #EAEAEA;
+	margin-top: 13px;
+}
+.mainLeft img{
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+.mainLefts{
+	float: right;
+	padding-top: 5px;
+}
+.mainLefts h4{
+	font-size: 12px;
+	color: #a4a4a4;
+}
+.mainLefts h4 a{
+	text-decoration: underline;
+}
+.mainLeftsa{
+	float: left;
+	margin-top: 5px;
+}
+.mainLeftsa a{
+	box-sizing: border-box;
+	display: block;
+	width: 60px;
+	height: 20px;
+	border: 1px solid #ca141d;
+	color: #CA141D;
+	font-size: 12px;
+	line-height: 18px;
+	float: left;
+	text-align: center;
+	margin-right: 13px;
+}
+.mainLeftsa a:hover{
+	background: #CA141D;
+	color: white;
+}
+.mainMid{
+	float: left;
+	width: 602px;
+	display: flex;
+	padding-top: 21px;
+	justify-content: space-around;
+	cursor: pointer;
+}
+.mainPic{
+	width: 40px;
+	height: 40px;
+	margin: 0 auto;
+}
+.mainPic1{
+	background: url(../img/spirit2.png);
+}
+.mainPic2{
+	background: url(../img/spirit2.png) -40px;
+}
+.mainPic3{
+	background: url(../img/spirit2.png) -80px;
+}
+.mainPic4{
+	background: url(../img/spirit2.png) -120px;
+}
+.mainPic5{
+	background: url(../img/spirit2.png) -160px;
+}
+.mainPic6{
+	background: url(../img/spirit2.png) -200px;
+}
+.mainMid li{
+	height: 58px;
+	font-size: 12px;
+	overflow: hidden;
+}
+.mainMid h5{
+	margin-top: 4px;
+}
+.mainRight{
+	float: left;
+}
+.mainRightTop{
+	height: 14px;
+	width: 286px;
+	position: relative;
+	padding: 17px 0 17px 14px;
+	border: 1px solid #EAEAEA;
+	border-top: none;
+	border-right: none;
+	overflow: hidden;
+}
+.mainRightTop a{
+	display: block;
+	float: left;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: 800;
+	color: #CA141D;
+}
+.mainRightTops{
+	overflow: hidden;
+	left: 60px;
+	top: 0;
+	position: absolute;
+}
+.mainRightTops li{
+	overflow: hidden;
+}
+.mainRightTops a{
+	width: 230px;
+	color: black;
+	font-weight: 100;
+	height: 48px;
+	font-size: 12px;
+	line-height: 48px;
+	width: 230px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.mainRightBot{
+	display: flex;
+	justify-content: space-around;
+	height: 48px;
+	width: 306px;
+	border-left: 1px solid #EAEAEA;
+}
+.mainRightBots{
+	width: 34%;
+	padding: 16px 0;
+	cursor: pointer;
+}
+.mainRightBots1s,.mainRightBots2s,.mainRightBots3s{
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin-left: 20px;
+}
+.mainRightBots1s{
+	background: url(../img/spirit2.png) -242px -1px;
+}
+.mainRightBots2s{
+	background: url(../img/spirit2.png) -262px -1px;
+}
+.mainRightBots3s{
+	background: url(../img/spirit2.png) -282px -2px;
+}
+.mainRightBots h5{
+	float: left;
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+#main1{
+	width: 1200px;
+	height: 160px;
+	margin: 12px auto 0;
+	display: flex;
+	justify-content: space-between;
+}
+.main1_1{
+	width: 291px;
+	height: 160px;
+	cursor: pointer;
+}
+#main2{
+	margin: 14px auto 0;
+	width: 1200px;
+	overflow: hidden;
+	position: relative;
+}
+#main2 h2{
+	height: 52px;
+	line-height: 52px;
+	font-size: 20px;
+}
+.main2s{
+	position: relative;
+}
+.main2Left{
+	width: 232px;
+	height: 590px;
+	position: absolute;
+}
+.main2Right{
+	width: 968px;
+	height: 590px;
+	position: relative;
+	left: 232px;
+}
+.main2RightTop,.main2RightBot{
+	position: relative;
+	height: 290px;
+}
+.main2RightBot{
+	margin-top: 10px;
+}
+.main2RightTops,.main2RightBots{
+	position: absolute;
+	width: 232px;
+	height: 290px;
+}
+.main2Right img{
+	height: 144px;
+	margin: 30px auto 0;
+}
+.main2Right h5{
+	margin-top: 24px;
+	height: 22px;
+	line-height: 22px;
+	font-size: 12px;
+	text-align: center;
+}
+.main2Right h6{
+	height: 22px;
+	line-height: 22px;
+	font-size: 12px;
+	text-align: center;
+	color:#a4a4a4;
+}
+.main2Right span{
+	display: block;
+	height: 32px;
+	line-height: 32px;
+	font-size: 12px;
+	text-align: center;
+	color: #CA141D;
+}
+.main2Hover{
+	background: white;
+	cursor: pointer;
+	box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+.main2RightTops1{
+	left: 10px;
+	top: 0;
+}
+.main2RightTops2{
+	left: 252px;
+	top: 0;
+}
+.main2RightTops3{
+	left: 494px;
+	top: 0;
+}
+.main2RightTops4{
+	left: 736px;
+	top: 0;
+}
+.main2RightBots1{
+	left: 10px;
+	top: 0;
+}
+.main2RightBots2{
+	left: 252px;
+	top: 0;
+}
+.main2RightBots3{
+	left: 494px;
+	top: 0;
+}
+.main2RightBots4{
+	left: 736px;
+	top: 0;
+}

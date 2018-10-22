@@ -1,0 +1,183 @@
+#main_wrap{
+	width: 100%;
+	overflow: hidden;
+	background: white;
+	margin-top: 5px;
+}
+#main{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.mainTop{
+	overflow: hidden;
+	height: 90px;
+	margin-top: 4px;
+}
+.mainTop1{
+	height: 12px;
+	padding: 14px 0;
+	font-size: 12px;
+	line-height: 12px;
+}
+.mainTop1 a{
+	display: block;
+	float: left;
+}
+.mainTop1 span{
+	display: block;
+	float: left;
+	margin-left: 12px;
+}
+.mainTop1 h3{
+	float: left;
+	margin-left: 12px;
+}
+.mainTop2{
+	box-sizing: border-box;
+	width: 1200px;
+	height: 50px;
+	border: 1px solid #dedede;
+	padding: 19px 50px;
+	font-size: 12px;
+}
+.mainTop2 h4{
+	float: left;
+}
+.mainTop2s{
+	float: left;
+	margin-left: 10px;
+}
+.mainTop2s a{
+	display: block;
+	float: left;
+	margin-right: 15px;
+	color: #999999;
+}
+.mainTop2s a:hover{
+	color: black;
+}
+.list{
+	overflow: hidden;
+}
+.list1{
+	height: 364px;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-top: 20px;
+}
+.list1s{
+	width: 224px;
+	height: 364px;
+	box-sizing: border-box;
+	background: #dedede;
+	overflow: hidden;
+	border: 1px solid #DEDEDE;
+	cursor: default;
+}
+.list1s:hover{
+	border: 1px solid #CA141D;
+}
+.list1sMain{
+	width: 222px;
+	height: 331px;
+	background: white;
+	overflow: hidden;
+}
+.list1s img{
+	height: 176px;
+	margin: 40px auto 0;
+	cursor: pointer;
+}
+.list1s h5{
+	height: 68px;
+	line-height: 68px;
+	font-size: 14px;
+	text-align: center;
+	color: #666666;
+	cursor: pointer;
+}
+.list1s h5:hover{
+	color: #CA141D;
+}
+.list1s h6{
+	display: block;
+	height: 18px;
+	line-height: 18px;
+	font-size: 14px;
+	color: #CA141D;
+	text-align: center;
+	font-weight: 800;
+}
+.list1s a{
+	display: block;
+	width: 110px;
+	height: 30px;
+	background: white;
+	float: left;
+	margin-top: 1px;
+	line-height: 30px;
+	text-align: center;
+	color: #CA141D;
+	font-size: 12px;
+}
+.list1s a:hover{
+	background: #CA141D;
+	color: white;
+}
+.list1s span{
+	float: left;
+	display: block;
+	height: 30px;
+	width: 111px;
+	background: white;
+	line-height: 30px;
+	font-size: 12px;
+	text-align: center;
+	margin: 1px 0 0 1px;
+}
+.page{
+	float: right;
+	height: 30px;
+	padding: 40px 0;
+}
+.pageList{
+	overflow: hidden;
+	height: 30px;
+}
+.pageBtn{
+	float: left;
+	width: 28px;
+	height: 28px;
+	border: 1px solid #dddcdb;
+	background: #fafafa;
+	margin-left: 10px;
+	font-size: 12px;
+	line-height: 28px;
+	text-align: center;
+	cursor: pointer;
+}
+.pageBtn:hover{
+	background: black;
+	border: 1px solid black;
+	color: white;
+}
+.pageNum{
+	float: left;
+	margin-left: 10px;
+}
+.pageNum li{
+	float: left;
+	height: 30px;
+	line-height: 20px;
+	font-size: 12px;
+}
+.pageNum a{
+	display: block;
+	float: left;
+	padding: 5px 8px;
+}
+.pageNum a:hover{
+	color: #CA141D;
+}
